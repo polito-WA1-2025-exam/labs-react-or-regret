@@ -51,6 +51,8 @@ function Poke(size){
     }
 }
 
+
+
 const poke = new Poke(1);
 console.log(poke);
 
