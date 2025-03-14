@@ -56,8 +56,8 @@ function Poke(size){
 
 
 const poke = new Poke(1);
-console.log(poke);
+//console.log(poke);
 
-console.log(dayjs('14/03/2025'));
+console.log(dayjs('2025-03-14 14:30').format('DD/MM/YYYY HH:mm:ss'));
 
 
