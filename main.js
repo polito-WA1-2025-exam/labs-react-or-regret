@@ -1,3 +1,5 @@
+import dayjs from 'dayjs';
+
 const Base = Object.freeze({
     RICE: "Rice",
     BLACK_RICE: "Black Rice",
@@ -55,5 +57,7 @@ function Poke(size){
 
 const poke = new Poke(1);
 console.log(poke);
+
+console.log(dayjs('14/03/2025'));
 
 
