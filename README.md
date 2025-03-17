@@ -28,3 +28,5 @@ Tabelle da creare:
  - Poke (id, size, base, proteins, ingredients, price, extraPrice, orderId)
  - Order (id, data, userId, totalPrice (da valutare))
  - User (id, username, password, email)
+
+ Per creare le Foreing Keys, una volta selezionata la reference, premi invio per salvare le modifiche, altrimenti - premendo solamente ok - la reference non verrà salvata e il db non potrà essere riempito.
