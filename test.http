@@ -1,0 +1,58 @@
+### 📦 GET tutte le taglie (Regular, Medium, Large)
+GET http://localhost:3000/api/sizes
+
+###
+
+### 🍚 GET elementi di tipo base
+GET http://localhost:3000/api/elements/Base
+
+###
+
+### 🍗 GET elementi di tipo protein
+GET http://localhost:3000/api/elements/Protein
+
+###
+
+### 🥕 GET elementi di tipo ingredient
+GET http://localhost:3000/api/elements/Ingredient
+
+###
+
+### 🔄 GET tutti gli elementi (senza filtro)
+GET http://localhost:3000/api/elements
+
+###
+
+### 🍱 POST crea un nuovo poke bowl
+POST http://localhost:3000/api/pokes
+Content-Type: application/json
+
+{
+  "sizeID": 1,
+  "elementIDs": [1, 5, 8, 9]  
+}
+
+###
+
+### 🧾 POST crea un nuovo ordine
+POST http://localhost:3000/api/orders
+Content-Type: application/json
+
+{
+  "userID": 1,
+  "pokes": [
+    { "pokeID": 3, "quantity": 2 },
+    { "pokeID": 4, "quantity": 1 }
+  ],
+  "totalPrice": 37.80
+}
+
+###
+
+### 🧍‍♂️ GET tutti gli ordini dell’utente 1
+GET http://localhost:3000/api/orders/user/1
+
+###
+
+### 🔍 GET dettagli di un ordine specifico (es. ID = 2)
+GET http://localhost:3000/api/orders/2
