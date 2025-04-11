@@ -41,10 +41,8 @@ Content-Type: application/json
 {
   "userID": 1,
   "pokes": [
-    { "pokeID": 3, "quantity": 2 },
-    { "pokeID": 4, "quantity": 1 }
-  ],
-  "totalPrice": 37.80
+    { "pokeID": 2}
+  ]
 }
 
 ###
@@ -55,4 +53,4 @@ GET http://localhost:3000/api/orders/user/1
 ###
 
 ### 🔍 GET dettagli di un ordine specifico (es. ID = 2)
-GET http://localhost:3000/api/orders/2
+GET http://localhost:3000/api/orders/1
